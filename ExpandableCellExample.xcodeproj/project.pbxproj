@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7338E00E24F3061700924A80 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338E00D24F3061700924A80 /* Order.swift */; };
 		73E17A5024F168EE00BC5C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E17A4F24F168EE00BC5C56 /* AppDelegate.swift */; };
 		73E17A5224F168EE00BC5C56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E17A5124F168EE00BC5C56 /* SceneDelegate.swift */; };
 		73E17A5424F168EE00BC5C56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E17A5324F168EE00BC5C56 /* ViewController.swift */; };
 		73E17A5724F168EE00BC5C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E17A5524F168EE00BC5C56 /* Main.storyboard */; };
 		73E17A5924F168F100BC5C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E17A5824F168F100BC5C56 /* Assets.xcassets */; };
 		73E17A5C24F168F100BC5C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E17A5A24F168F100BC5C56 /* LaunchScreen.storyboard */; };
+		73E17A6524F16A1200BC5C56 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E17A6324F16A1200BC5C56 /* CustomTableViewCell.swift */; };
+		73E17A6624F16A1200BC5C56 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E17A6424F16A1200BC5C56 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7338E00D24F3061700924A80 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		73E17A4C24F168EE00BC5C56 /* ExpandableCellExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableCellExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E17A4F24F168EE00BC5C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73E17A5124F168EE00BC5C56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		73E17A5824F168F100BC5C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E17A5B24F168F100BC5C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E17A5D24F168F100BC5C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E17A6324F16A1200BC5C56 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		73E17A6424F16A1200BC5C56 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				73E17A5824F168F100BC5C56 /* Assets.xcassets */,
 				73E17A5A24F168F100BC5C56 /* LaunchScreen.storyboard */,
 				73E17A5D24F168F100BC5C56 /* Info.plist */,
+				73E17A6324F16A1200BC5C56 /* CustomTableViewCell.swift */,
+				73E17A6424F16A1200BC5C56 /* CustomTableViewCell.xib */,
+				7338E00D24F3061700924A80 /* Order.swift */,
 			);
 			path = ExpandableCellExample;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				73E17A5C24F168F100BC5C56 /* LaunchScreen.storyboard in Resources */,
 				73E17A5924F168F100BC5C56 /* Assets.xcassets in Resources */,
+				73E17A6624F16A1200BC5C56 /* CustomTableViewCell.xib in Resources */,
 				73E17A5724F168EE00BC5C56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +150,8 @@
 			files = (
 				73E17A5424F168EE00BC5C56 /* ViewController.swift in Sources */,
 				73E17A5024F168EE00BC5C56 /* AppDelegate.swift in Sources */,
+				7338E00E24F3061700924A80 /* Order.swift in Sources */,
+				73E17A6524F16A1200BC5C56 /* CustomTableViewCell.swift in Sources */,
 				73E17A5224F168EE00BC5C56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
